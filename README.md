@@ -45,25 +45,28 @@ Sala Viva AR es una app de realidad aumentada para Android que convierte un paqu
 
 ```
 SalaVivaAR/
-├── App/SalaVivaAR/          Proyecto de Unity
-│   └── Assets/SalaViva/
-│       ├── Scripts/         SalaVivaUI, PiezaAR, ColeccionAR, ControlTactil, PiezaData…
-│       ├── Editor/          Menú "Sala Viva AR": Construir escena, Configurar app, capturas
-│       ├── Modelos/         4 modelos FBX
-│       ├── Texturas/        Color, relieve y policromía
-│       ├── UI/ y Extras/    Interfaz, íconos, sombra, silueta y anillo solar
-│       └── Audio/           Música de la colección
-├── Blender/                 Archivos .blend y scripts de modelado
-├── Postales/                Emblemas (Image Targets) y archivos para imprenta (PNG y PDF)
-├── Video/                   Demostración de la app
-└── Docs/                    Manual técnico y manual de usuario
+├── App/
+│   ├── SalaVivaAR/              Proyecto de Unity
+│   │   └── Assets/SalaViva/
+│   │       ├── Scripts/         SalaVivaUI, PiezaAR, ColeccionAR, ControlTactil, PiezaData…
+│   │       ├── Editor/          Menú "Sala Viva AR": Construir escena, Configurar app, capturas
+│   │       ├── Modelos/         4 modelos FBX
+│   │       ├── Texturas/        Color, relieve y policromía
+│   │       ├── UI/ y Extras/    Interfaz, íconos, sombra, silueta y anillo solar
+│   │       └── Audio/           Música de la colección
+│   └── scripts_python/          Generadores de la interfaz, extras, Danza del Sol y música
+├── Blender/                     Archivos .blend, scripts de modelado, texturas y FBX exportados
+├── Postales/                    Frente y reverso de las 5 postales, PDF para imprenta y emblemas
+├── Build/                       Aquí va el APK al compilar (no se incluye en el repositorio)
+├── Video/                       Demostración de la app
+└── Docs/                        Manual técnico y manual de usuario (PDF y Word)
 ```
 
 ## Cómo abrir y compilar
 
 1. Instalar **Unity 6000.3.10f1** con *Android Build Support* (OpenJDK, SDK y NDK).
 2. Abrir la carpeta `App/SalaVivaAR` desde Unity Hub.
-3. Importar **Vuforia Engine 11.4.4** si no se instala solo, y poner una clave de licencia propia en `Resources/VuforiaConfiguration` (se genera gratis en el portal de desarrolladores de Vuforia).
+3. **Vuforia Engine 11.4.4** no viene en el repositorio porque el paquete pesa más de lo que GitHub permite. Descarga `com.ptc.vuforia.engine-11.4.4.tgz` del portal de desarrolladores de Vuforia y colócalo en `App/SalaVivaAR/Packages/` antes de abrir el proyecto. Después pon tu propia clave de licencia en `Assets/Resources/VuforiaConfiguration` (se genera gratis en el mismo portal).
 4. Menú **Sala Viva AR → Construir escena** para generar la escena completa.
 5. Menú **Sala Viva AR → Configurar app** (nombre, ícono, orientación, IL2CPP, ARM64 y API 29).
 6. **File → Build Profiles → Android → Switch Platform**, y después **Build** o **Build And Run**.
@@ -72,7 +75,7 @@ SalaVivaAR/
 
 ## Cómo probarla
 
-Imprime las postales de `Postales/` (25 × 15 cm, papel couché de 300 g) o abre los emblemas en otra pantalla. Escanea las cuatro postales de piezas y al final la tarjeta de colección. Todos los detalles de uso están en el **manual de usuario**, y los de desarrollo, costos y mantenimiento en el **manual técnico** (`Docs/`).
+Imprime las postales de `Postales/` (o el PDF `Postales_Sala_Viva_AR_imprimir.pdf`) (25 × 15 cm, papel couché de 300 g) o abre los emblemas en otra pantalla. Escanea las cuatro postales de piezas y al final la tarjeta de colección. Todos los detalles de uso están en el **manual de usuario**, y los de desarrollo, costos y mantenimiento en el **manual técnico** (`Docs/`).
 
 ## Modelo de negocio
 
