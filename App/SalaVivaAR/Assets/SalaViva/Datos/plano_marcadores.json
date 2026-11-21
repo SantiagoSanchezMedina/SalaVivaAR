@@ -1,0 +1,22 @@
+{
+  "piedra_sol": {
+    "u": 0.1331,
+    "v": 0.5,
+    "nombre": "Piedra del Sol"
+  },
+  "cabeza_olmeca": {
+    "u": 0.3881,
+    "v": 0.2667,
+    "nombre": "Cabeza colosal 6"
+  },
+  "pakal": {
+    "u": 0.48,
+    "v": 0.2625,
+    "nombre": "Máscara de Pakal"
+  },
+  "chac_mool": {
+    "u": 0.5387,
+    "v": 0.2625,
+    "nombre": "Chac Mool"
+  }
+}

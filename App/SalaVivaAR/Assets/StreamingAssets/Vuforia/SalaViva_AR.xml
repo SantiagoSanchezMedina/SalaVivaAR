@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="target_piedradelsol_vuforia" size="1.000000 1.250000" />
+    <ImageTarget name="target_mascarapakal_vuforia" size="1.000000 1.250000" />
+    <ImageTarget name="target_coleccion_vuforia" size="1.000000 0.750000" />
+    <ImageTarget name="target_chacmool_vuforia" size="1.000000 1.250000" />
+    <ImageTarget name="target_cabezaolmeca_vuforia" size="1.000000 1.250000" />
+    <ImageTarget name="cedula_piedradelsol_vuforia" size="1.000000 1.333333" />
+    <ImageTarget name="cedula_mascarapakal_vuforia" size="1.000000 1.333333" />
+    <ImageTarget name="cedula_cabezaolmeca_vuforia" size="1.000000 1.333333" />
+    <ImageTarget name="cedula_chacmool_vuforia" size="1.000000 1.333333" />
+    <ImageTarget name="plano_mna_vuforia" size="1.000000 0.750000" />
+  </Tracking>
+</QCARConfig>

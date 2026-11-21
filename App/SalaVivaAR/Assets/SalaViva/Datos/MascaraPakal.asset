@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbebdc871b1b7b4dbb392b9e5a1a122, type: 3}
+  m_Name: MascaraPakal
+  m_EditorClassIdentifier: Assembly-CSharp::PiezaData
+  id: pakal
+  nombre: "M\xE1scara de Pakal"
+  sala: Maya
+  colorSala: {r: 0.12156863, g: 0.47843137, b: 0.36078432, a: 1}
+  insignia: {fileID: 21300000, guid: 7cf1473bf46414645a058bc9974f7a3a, type: 3}
+  insigniaBloqueada: {fileID: 21300000, guid: 15b43b0cdffd3ee4483969c50fd223de, type: 3}
+  cultura: Maya
+  epoca: "Cl\xE1sico tard\xEDo (683 d.C.)"
+  material: Unos 200 fragmentos de jade; ojos de concha e iris de obsidiana
+  medidas: 
+  procedencia: Tumba del Templo de las Inscripciones, Palenque, Chiapas
+  hallazgo: "1952, por el arque\xF3logo Alberto Ruz Lhuillier"
+  curiosidades:
+  - "K'inich Janaab' Pakal gobern\xF3 Palenque durante 68 a\xF1os y muri\xF3 en el
+    683 d.C., a los 80 a\xF1os."
+  - "La m\xE1scara cubr\xEDa su rostro dentro de un sarc\xF3fago monol\xEDtico; sus
+    restos estaban cubiertos de cinabrio, un pigmento rojo."
+  - "Los fragmentos de jade se tallaron para formar la frente, los p\xF3mulos, la
+    nariz, los p\xE1rpados y los labios."
+  - "Fue robada del museo la Navidad de 1985 junto con m\xE1s de cien piezas, y se
+    recuper\xF3 en 1989."
+  enElMuseo: "Se exhibe en la Sala Maya, dentro de una recreaci\xF3n de la cripta
+    del Templo de las Inscripciones, junto con parte del ajuar funerario de Pakal."
+  fuente: "INAH \xB7 Museo Nacional de Antropolog\xEDa"
+  nombreVista: Escala real
+  textoVista: "Cubr\xEDa el rostro de Pakal: es de tama\xF1o natural, junto a una
+    persona de 1.70 m."
+  medidaRealMetros: 0.22

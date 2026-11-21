@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbebdc871b1b7b4dbb392b9e5a1a122, type: 3}
+  m_Name: PiedraSol
+  m_EditorClassIdentifier: Assembly-CSharp::PiezaData
+  id: piedra_sol
+  nombre: Piedra del Sol
+  sala: Mexica
+  colorSala: {r: 0.70980394, g: 0.28235295, b: 0.16862746, a: 1}
+  insignia: {fileID: 21300000, guid: fa23b258bed05ee47ad8c0bd54fb9294, type: 3}
+  insigniaBloqueada: {fileID: 21300000, guid: 4d4af7797dadee844a5a7d22849bffbf, type: 3}
+  cultura: Mexica
+  epoca: "Poscl\xE1sico tard\xEDo (1250\u20131521 d.C.)"
+  material: Basalto de olivino
+  medidas: "3.58 m de di\xE1metro \xB7 98 cm de grosor \xB7 cerca de 24 toneladas"
+  procedencia: "Recinto sagrado de Tenochtitlan, Ciudad de M\xE9xico"
+  hallazgo: "17 de diciembre de 1790, en la Plaza Mayor (hoy Z\xF3calo), durante
+    obras de empedrado"
+  curiosidades:
+  - "Aunque se le conoce como \xABCalendario azteca\xBB, nunca funcion\xF3 como calendario:
+    probablemente fue un altar ceremonial dedicado al Sol."
+  - "Tras la Conquista fue enterrada a prop\xF3sito: el arzobispo Alonso de Mont\xFAfar
+    orden\xF3 ocultarla para que se perdiera la memoria de los antiguos rituales."
+  - "Despu\xE9s de su hallazgo estuvo empotrada en la torre poniente de la Catedral
+    Metropolitana casi cien a\xF1os, hasta 1885."
+  - 'Originalmente estaba pintada: se han encontrado rastros de pigmentos rojos y
+    amarillos asociados al culto solar.'
+  - "En el centro aparece un rostro rodeado por los cuatro soles anteriores; en el
+    borde, dos serpientes de fuego (Xiuhc\xF3atl) se encuentran frente a frente."
+  enElMuseo: "Preside la Sala Mexica, al fondo del recorrido arqueol\xF3gico de la
+    planta baja. Lleg\xF3 al Museo Nacional de Antropolog\xEDa en 1964, el a\xF1o
+    de su inauguraci\xF3n, desde el antiguo museo de la calle de Moneda."
+  fuente: "INAH \xB7 Museo Nacional de Antropolog\xEDa"
+  nombreVista: Colores originales
+  textoVista: "Restituci\xF3n hipot\xE9tica con la paleta que usaban los mexicas:
+    rojo, ocre, azul, blanco y negro."
+  medidaRealMetros: 3.58

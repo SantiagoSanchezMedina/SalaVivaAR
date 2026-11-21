@@ -1,0 +1,26 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+App/SalaVivaAR/[Ll]ibrary/
+App/SalaVivaAR/[Tt]emp/
+App/SalaVivaAR/[Oo]bj/
+App/SalaVivaAR/[Ll]ogs/
+App/SalaVivaAR/[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*_BurstDebugInformation_DoNotShip/
+# paquete de Vuforia (más de 100 MB)
+App/SalaVivaAR/Packages/*.tgz
+# compilados y respaldos
+*.apk
+*.aab
+*.unitypackage
+*.blend1

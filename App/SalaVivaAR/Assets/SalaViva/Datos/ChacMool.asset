@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbebdc871b1b7b4dbb392b9e5a1a122, type: 3}
+  m_Name: ChacMool
+  m_EditorClassIdentifier: Assembly-CSharp::PiezaData
+  id: chac_mool
+  nombre: Chac Mool
+  sala: Maya
+  colorSala: {r: 0.5882353, g: 0.40784314, b: 0.14117648, a: 1}
+  insignia: {fileID: 21300000, guid: 36a1a50c3e08381409a381a7134f48bd, type: 3}
+  insigniaBloqueada: {fileID: 21300000, guid: 948bffecbaaa4cb4b9b19daefeabebfe, type: 3}
+  cultura: "Maya (Chich\xE9n Itz\xE1)"
+  epoca: "Poscl\xE1sico temprano (900\u20131250 d.C.)"
+  material: Piedra caliza
+  medidas: "1.10 m de alto \xB7 1.48 m de largo"
+  procedencia: "Plataforma de las \xC1guilas y los Jaguares, Chich\xE9n Itz\xE1,
+    Yucat\xE1n"
+  hallazgo: 1875, por Augustus y Alice Le Plongeon
+  curiosidades:
+  - "Nadie sabe c\xF3mo se llamaban originalmente estas esculturas: el nombre \xABChac
+    Mool\xBB lo invent\xF3 Augustus Le Plongeon en 1875."
+  - "Le Plongeon quiso llevarlo a la Exposici\xF3n del Centenario de Filadelfia en
+    1876, pero se le neg\xF3 el permiso; en 1877 fue trasladado a M\xE9rida."
+  - "El recipiente sobre su vientre recib\xEDa ofrendas. Se conocen alrededor de
+    60 Chac Mool en toda Mesoam\xE9rica."
+  - Su cabeza gira 90 grados para mirar de frente, una postura que comparten casi
+    todos los Chac Mool.
+  enElMuseo: "Se encuentra en la Sala Maya, en el ala sur del museo. Es el Chac Mool
+    que Le Plongeon excav\xF3 en Chich\xE9n Itz\xE1, uno de los m\xE1s famosos del
+    mundo."
+  fuente: "INAH \xB7 Museo Nacional de Antropolog\xEDa"
+  nombreVista: Escala real
+  textoVista: Mide 1.48 m de largo y 1.10 m de alto, junto a una persona de 1.70
+    m.
+  medidaRealMetros: 1.48
